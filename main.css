@@ -40,13 +40,12 @@ header nav ul li a{
 	display: block;
 	color: black;
 }
-<<<<<<< HEAD
 header .logo{
 	font-weight: bold;
 	transition: .55;
 	color: black;
 	width: 300px;
-=======
+}
 .myButton{
     position: absolute;
     top: 550;
@@ -61,7 +60,6 @@ header .logo{
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
->>>>>>> de5d12ef92703821d1efd4aed8ae1869b4435eac
 }
 header .logo:hover{
 	transform: scale(1.2);
