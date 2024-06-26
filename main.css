@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	
+}
+body{
+	display: flex;
+	height: 2000px;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: white;
+	height: 10vh;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	padding: 0 8%;
+	border: 1px solid silver;
+	z-index: 1000;
+
+}
+header nav ul li{
+	position: relative;
+	float: left;
+	
+}
+header nav ul li a:hover{
+	background: black;
+	color: white;
+}
+header nav ul li a{
+	padding: 15px;
+	display: block;
+	color: black;
+}
+<<<<<<< HEAD
+header .logo{
+	font-weight: bold;
+	transition: .55;
+	color: black;
+	width: 300px;
+=======
+.myButton{
+    position: absolute;
+    top: 550;
+    left: 100;
+    border-radius: 15px;
+    border: black;
+    background-color: #2F2F2F;
+    color: white;
+    width: 200; /* Ширина */
+    height: 50; /* Высота */
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+>>>>>>> de5d12ef92703821d1efd4aed8ae1869b4435eac
+}
+header .logo:hover{
+	transform: scale(1.2);
+}
+nav ul li ul li{
+  border: 1px solid silver;
+  padding: 5px;
+  width: 100%;
+}
+nav ul li ul{
+	background: white;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: initial;
+}
+.item{
+	position: relative;
+	left: -400px;
+}
+h1{	
+	position: relative;
+	top: 300px;
+	left: 700px;
+	
+}
+#wellcome{
+	position: relative;
+	top: 400px;
+	left: 600px;
+	height: 500px;
+	width: 700px;
+	justify-content: center;
+}
+#arrow{
+	position: fixed;
+	cursor: pointer;
+	padding: 25px 15px;
+	font-weight: bold;
+	z-index: 1000;
+	
+}

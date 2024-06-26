@@ -1,0 +1,38 @@
+*{
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 2000px;
+}
+img{
+	width: 500px;
+	height: 400px;
+}
+/*#description{
+	display: none;
+	padding-top: 500px;
+}*/
+p{
+	float: right;
+	width: 300px;
+	padding: 0 200px;
+}
+ul li a{
+	color: black;
+
+}
+ul li{
+	padding: 5px;
+}
+ul li a:hover{
+	text-decoration: underline;
+}
+#arrow1{
+	position: relative;
+	left: -880px;
+	cursor: pointer;
+}
